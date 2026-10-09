@@ -9,9 +9,12 @@
   ],
   "license": "ISC",
   "author": "manas",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9"
   }
 }
